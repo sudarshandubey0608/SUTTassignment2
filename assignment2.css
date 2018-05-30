@@ -1,0 +1,144 @@
+body
+{
+  background-image: url("img.jpg");
+  margin: 60px;
+  
+}
+.grid 
+{ 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+.grid div
+{
+font-family: Comic Sans;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: normal;
+  padding:45px;
+}
+.grid div:hover
+{
+background-color: white;
+opacity:0.8;
+}
+
+.first
+{
+	background-color:#e5edf0;
+height:40px;
+padding:45px;
+text-align: center;
+margin: 0px;
+width: 82.1%;
+grid-column-start:1; 
+grid-column-end:4;
+}
+.sec
+{
+	grid-column-start:4; 
+grid-column-end:6;
+	background-color:white;
+height:40px;
+text-align: center;
+padding: 45px;
+margin: 0px;
+width: 73%;
+}
+.thir
+{
+	grid-column-start:6; 
+grid-column-end:8;
+	
+	background-color:#e5edf0;
+height:40px;
+padding:45px;
+text-align: center;
+margin: 0px;
+width: 73%;
+}
+.thiry
+{
+	grid-column-start:8; 
+grid-column-end:10;
+	background-color:#e5edf0;
+height:40px;
+padding:45px;
+text-align: center;
+margin: 0px;
+width: 60%;
+}
+.four
+{
+	background-color:cyan;
+height:40px;
+padding:45px;
+text-align: center;
+margin: 0px;
+grid-column-start:1; 
+grid-column-end:4;
+width: 82%;
+}
+.fif
+{
+	grid-column-start:4; 
+grid-column-end:10;
+	background-color:red;
+height:40px;
+padding:45px;
+text-align: center;
+margin: 0px;
+width: 92%;
+}
+.six
+{
+	grid-column-start:1; 
+grid-column-end:10;
+	background-color:pink;
+height:40px;
+padding:45px;
+text-align: center;
+margin: 0px;
+width:95%; 
+}
+
+.sev
+{
+	grid-column-start:1; 
+    grid-column-end:10;
+	background-color:cyan;
+height:40px;
+padding:45px;
+text-align: center;
+margin: 0px;
+width: 95%;
+opacity: 0.8;
+}
+
+
+.eig
+{
+grid-column-start:1; 
+    grid-column-end:5;
+	background-color:yellow;
+height:40px;
+padding:45px;
+text-align: center;
+margin: 0px;
+width: 86.2%;
+opacity: 0.6;
+}
+
+.nine
+{
+    grid-column-start:5; 
+    grid-column-end:10;
+	background-color:yellow;
+height:40px;
+padding:45px;
+text-align: center;
+margin: 0px;
+width: 90%;
+opacity: 0.6;
+}
+
